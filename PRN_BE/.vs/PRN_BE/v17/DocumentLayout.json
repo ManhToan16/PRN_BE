@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13DD45C6-0862-430A-853C-0D508B018CDE}|PRN_BE.csproj|f:\\fpt\\sp25\\prn231\\github\\project\\prn_be\\prn_be\\prn_be\\prn_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13DD45C6-0862-430A-853C-0D508B018CDE}|PRN_BE.csproj|solutionrelative:prn_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13DD45C6-0862-430A-853C-0D508B018CDE}|PRN_BE.csproj|f:\\fpt\\sp25\\prn231\\github\\project\\prn_be\\prn_be\\prn_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13DD45C6-0862-430A-853C-0D508B018CDE}|PRN_BE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13DD45C6-0862-430A-853C-0D508B018CDE}|PRN_BE.csproj|f:\\fpt\\sp25\\prn231\\github\\project\\prn_be\\prn_be\\prn_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13DD45C6-0862-430A-853C-0D508B018CDE}|PRN_BE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 298,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 157,
           "Children": [
             {
               "$type": "Bookmark",
@@ -638,6 +651,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:85:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PRN_BE",
+              "DocumentMoniker": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\PRN_BE.csproj",
+              "RelativeDocumentMoniker": "PRN_BE.csproj",
+              "ToolTip": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\PRN_BE.csproj",
+              "RelativeToolTip": "PRN_BE.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T15:59:12.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T15:57:20.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:57:18.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
