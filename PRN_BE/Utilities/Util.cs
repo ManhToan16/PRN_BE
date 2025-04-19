@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication;
 using Newtonsoft.Json;
 using PRN_BE.Models.Request;
 using RestSharp;
+using System.Drawing;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
