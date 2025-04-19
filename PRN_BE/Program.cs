@@ -7,6 +7,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using PRN_BE.Data;
+using PRN_BE.Repositories;
+using PRN_BE.Repositories.impl;
+using PRN_BE.Utitlities;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -70,7 +73,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 //builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 //builder.Services.AddScoped<IBookingsRepository, BookingRepository>();
 //builder.Services.AddScoped<IRoom_StatusRepository, Room_StatusRepository>();
-//builder.Services.AddScoped<IBooking_StatusRepository, Booking_StatusRepository>();
+builder.Services.AddScoped<IBooking_StatusRepository, Booking_StatusRepository>();
 //builder.Services.AddScoped<IFeatureRepository, FeatureRepository>();
 //builder.Services.AddScoped<ILocationRepository, LocationRepository>();
 //builder.Services.AddScoped<IRoomRepository, RoomRepository>();
