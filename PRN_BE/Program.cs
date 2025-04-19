@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.OData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using PRN_BE.Data;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -52,17 +53,17 @@ builder.Services.AddSwaggerGen(option =>
 
 builder.Services.AddCors(options => options.AddPolicy("AllowAll", policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
-//builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-//    .AddEntityFrameworkStores<EasyBookingBEContext>().AddDefaultTokenProviders();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<EasyBookingBEContext>().AddDefaultTokenProviders();
 
-//builder.Services.AddDbContext<EasyBookingBEContext>(options =>
-//{
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("MyContr"));
-//});
-//builder.Services.Configure<IdentityOptions>(options =>
-//{
-//    options.User.RequireUniqueEmail = true; // Default is true
-//});
+builder.Services.AddDbContext<EasyBookingBEContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MyContr"));
+});
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.User.RequireUniqueEmail = true; // Default is true
+});
 
 //builder.Services.AddAutoMapper(typeof(Program));
 //builder.Services.AddScoped<IPayment_StatusRepository, Payment_StatusRepository>();
