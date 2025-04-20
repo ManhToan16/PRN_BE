@@ -1,7 +1,7 @@
 ﻿using PRN_BE.Models.Request;
 using PRN_BE.Models.Response;
 
-namespace PRN_BE.Repositories.impl
+namespace PRN_BE.Repositories
 {
     public interface IBooking_StatusRepository
     {

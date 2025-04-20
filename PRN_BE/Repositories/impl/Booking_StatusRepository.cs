@@ -4,9 +4,8 @@ using PRN_BE.Data;
 using PRN_BE.Data.Constants;
 using PRN_BE.Models.Request;
 using PRN_BE.Models.Response;
-using PRN_BE.Repositories.impl;
 
-namespace PRN_BE.Repositories
+namespace PRN_BE.Repositories.impl
 {
 
     public class Booking_StatusRepository : IBooking_StatusRepository
