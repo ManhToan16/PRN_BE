@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PRN_BE.Models.Request;
-using PRN_BE.Repositories.impl;
+using PRN_BE.Repositories;
 
 namespace PRN_BE.Controllers
 {
