@@ -8,7 +8,7 @@ namespace PRN_BE.Utilities
     {
         public ApplicationHelper()
         {
-            //CreateMap<Booking, BookingModel>().ReverseMap();
+            CreateMap<Booking, BookingModel>().ReverseMap();
             //CreateMap<Payment_Status, Payment_StatusModel>().ReverseMap();
             //CreateMap<Room_Status, Room_StatusModel>().ReverseMap();
             CreateMap<Booking_Status, Booking_StatusModel>().ReverseMap();
