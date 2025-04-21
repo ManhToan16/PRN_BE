@@ -11805,19 +11805,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\toanl\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\PRN_BE.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\PRN_BE\\PRN_BE\\PRN_BE.csproj",
       "projectName": "PRN_BE",
-      "projectPath": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\PRN_BE.csproj",
-      "packagesPath": "C:\\Users\\toanl\\.nuget\\packages\\",
-      "outputPath": "F:\\FPT\\SP25\\PRN231\\Github\\Project\\PRN_BE\\PRN_BE\\PRN_BE\\obj\\",
+      "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\PRN_BE\\PRN_BE\\PRN_BE.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\PRN_BE\\PRN_BE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\toanl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11925,7 +11925,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
