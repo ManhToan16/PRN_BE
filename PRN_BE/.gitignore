@@ -1,2 +1,12 @@
-﻿.vs/
+﻿# Bỏ qua thư mục .vs
+.vs/PRN_BE/CopilotIndices/**
+.vs/
+# Bỏ qua các file database tạm
+*.db
+*.db-shm
+*.db-wal
+
+# Bỏ luôn bin/obj nếu chưa thêm
 bin/
+obj/
+**/CopilotIndices/**
