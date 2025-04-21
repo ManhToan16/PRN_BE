@@ -5,7 +5,7 @@ namespace PRN_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class MController : ControllerBase
+    public class MediaController : ControllerBase
     {
         
     }
