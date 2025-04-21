@@ -69,7 +69,7 @@ builder.Services.Configure<IdentityOptions>(options =>
 });
 
 builder.Services.AddAutoMapper(typeof(Program));
-//builder.Services.AddScoped<IPayment_StatusRepository, Payment_StatusRepository>();
+builder.Services.AddScoped<IPayment_StatusRepository, Payment_StatusRepository>();
 //builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IBookingsRepository, BookingRepository>();
 //builder.Services.AddScoped<IRoom_StatusRepository, Room_StatusRepository>();

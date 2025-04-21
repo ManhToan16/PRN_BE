@@ -8,11 +8,11 @@ namespace PRN_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BSController : ControllerBase
+    public class Booking_Status : ControllerBase
     {
         private readonly IBooking_StatusRepository _booking_StatusRepository;
 
-        public BSController(IBooking_StatusRepository booking_StatusRepository)
+        public Booking_Status(IBooking_StatusRepository booking_StatusRepository)
         {
             _booking_StatusRepository = booking_StatusRepository;
         }
