@@ -9,11 +9,10 @@ namespace PRN_BE.Controllers
     [ApiController]
     public class Room_FeatureController : ControllerBase
     {
-        public class RFController : ControllerBase
-        {
+
             private readonly IRoom_FeatureRepository _room_feature_repository;
 
-            public RFController(IRoom_FeatureRepository room_feature_repository)
+            public Room_FeatureController(IRoom_FeatureRepository room_feature_repository)
             {
                 _room_feature_repository = room_feature_repository;
             }
@@ -25,7 +24,7 @@ namespace PRN_BE.Controllers
                 return result.StatusCode == 200 ? Ok(result) : BadRequest(result);
             }
 
-        }
+        
 
     }
 }
