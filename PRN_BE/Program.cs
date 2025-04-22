@@ -80,7 +80,7 @@ builder.Services.AddScoped<IBooking_StatusRepository, Booking_StatusRepository>(
 //builder.Services.AddScoped<IRoom_FeatureRepository, Room_FeatureRepository>();
 //builder.Services.AddScoped<IMediaRepository, MediaRepository>();
 //builder.Services.AddScoped<IRegionRepository, RegionRepository>();
-//builder.Services.AddScoped<IQrGenerateRepository, QrGenerateRepository>();
+builder.Services.AddScoped<IQrGenerateRepository, QrGenerateRepository>();
 builder.Services.AddScoped<Util>();
 
 builder.Services.AddAuthentication(option =>
