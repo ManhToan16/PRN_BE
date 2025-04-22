@@ -20,4 +20,4 @@ namespace PRN_BE.Models.Request
         public string? thumbnail { get; set; }
     }
 }
-}
+
