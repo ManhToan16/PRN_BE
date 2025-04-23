@@ -69,18 +69,18 @@ builder.Services.Configure<IdentityOptions>(options =>
 });
 
 builder.Services.AddAutoMapper(typeof(Program));
-//builder.Services.AddScoped<IPayment_StatusRepository, Payment_StatusRepository>();
+builder.Services.AddScoped<IPayment_StatusRepository, Payment_StatusRepository>();
 //builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IBookingsRepository, BookingRepository>();
-//builder.Services.AddScoped<IRoom_StatusRepository, Room_StatusRepository>();
+builder.Services.AddScoped<IRoom_StatusRepository, Room_StatusRepository>();
 builder.Services.AddScoped<IBooking_StatusRepository, Booking_StatusRepository>();
 //builder.Services.AddScoped<IFeatureRepository, FeatureRepository>();
 //builder.Services.AddScoped<ILocationRepository, LocationRepository>();
-//builder.Services.AddScoped<IRoomRepository, RoomRepository>();
-//builder.Services.AddScoped<IRoom_FeatureRepository, Room_FeatureRepository>();
+builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+builder.Services.AddScoped<IRoom_FeatureRepository, Room_FeatureRepository>();
 //builder.Services.AddScoped<IMediaRepository, MediaRepository>();
 //builder.Services.AddScoped<IRegionRepository, RegionRepository>();
-//builder.Services.AddScoped<IQrGenerateRepository, QrGenerateRepository>();
+builder.Services.AddScoped<IQrGenerateRepository, QrGenerateRepository>();
 builder.Services.AddScoped<Util>();
 
 builder.Services.AddAuthentication(option =>
