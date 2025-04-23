@@ -5,9 +5,9 @@ using PRN_BE.Models.Request;
 using PRN_BE.Models.Response;
 using PRN_BE.Data.Constants;
 
-namespace PRN_BE.Repositories.impl
+namespace PRN_BE.Repositories.Repositories
 {
-    public class MediaRepository
+    public class MediaRepository : IMediaRepository
     {
         private readonly EasyBookingBEContext _context;
         private readonly IMapper _mapper;
