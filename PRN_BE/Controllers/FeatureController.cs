@@ -7,11 +7,11 @@ namespace PRN_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FController : ControllerBase
+    public class FeatureController : ControllerBase
     {
         private readonly IFeatureRepository _featureRepository;
 
-        public FController(IFeatureRepository featureRepository)
+        public FeatureController(IFeatureRepository featureRepository)
         {
             _featureRepository = featureRepository;
         }
