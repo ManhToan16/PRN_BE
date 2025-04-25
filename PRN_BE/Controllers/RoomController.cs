@@ -73,8 +73,5 @@ namespace PRN_BE.Controllers
             var result = await _roomRepository.GetRoomsByUserIdAsync();
             return result.StatusCode == 200 ? Ok(result) : NotFound(result);
         }
-
-
-
     }
 }
