@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Easy_Booking_BE.Models;
+namespace PRN_BE.Models;
 
 public class FeatureModel
 {

@@ -1,7 +1,5 @@
 ﻿using PRN_BE.Models;
 using PRN_BE.Models.Response;
-using PRN_BE.Data;
-using Easy_Booking_BE.Models;
 
 namespace PRN_BE.Repositories;
 
