@@ -24,7 +24,7 @@ namespace PRN_BE.Utilities
                         ? Convert.FromBase64String(src.thumbnail.Replace("data:image/png;base64,", ""))
                         : null
                 ));
-            //CreateMap<Media, MediaModel>().ReverseMap();
+            CreateMap<Media, MediaModel>().ReverseMap();
         }
 
     }
