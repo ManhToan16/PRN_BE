@@ -7,11 +7,11 @@ namespace PRN_BE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LController : ControllerBase
+    public class LocationController : ControllerBase
     {
         private readonly ILocationRepository _locationRepository;
 
-        public LController(ILocationRepository locationRepository)
+        public LocationController(ILocationRepository locationRepository)
         {
             _locationRepository = locationRepository;
         }
