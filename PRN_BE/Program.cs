@@ -10,6 +10,7 @@ using PRN_BE.Data;
 using PRN_BE.Repositories;
 using PRN_BE.Repositories.impl;
 using PRN_BE.Repositories.Repositories;
+using PRN_BE.Utilities;
 using PRN_BE.Utitlities;
 using System.Text;
 
@@ -83,7 +84,7 @@ builder.Services.AddScoped<IMediaRepository, MediaRepository>();
 builder.Services.AddScoped<IRegionRepository, RegionRepository>();
 builder.Services.AddScoped<IQrGenerateRepository, QrGenerateRepository>();
 builder.Services.AddScoped<Util>();
-
+builder.Services.AddSingleton<TogetherAIService>();
 builder.Services.AddAuthentication(option =>
 {
     option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
